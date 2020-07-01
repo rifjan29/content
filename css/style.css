@@ -5,14 +5,32 @@ body{
     font-family: 'Roboto', sans-serif;
 
 }
+
+/* pengaturan layour awal */
 main{
-    padding: 80px;
+    padding: 50px;
     overflow: auto;
 }
+h3{
+    color: #3D6277;
+}
+.content-text{
+    color: #657b9b;
+}
+h4{
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    color: #37464A;
+    padding: 0 10px 10px 10px;
+}
+/* content 1 */
 .container{
     height: 250px;
     width: auto;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin-bottom: 100px;
 }
 .content-list{
     width: 33.33%;
@@ -21,4 +39,67 @@ main{
 .content-logo {
     text-align: center;
     padding: 20px;
+}
+.content-logo p {
+    font-size: 12px;
+    line-height: 15px;
+}
+/* content icon button */
+.btn{
+    border: 2px gray solid;
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 12px;
+    cursor: pointer;
+    border: none;
+
+}
+.courses{
+    display: block;
+    
+}
+
+/* content2 */
+.clip-title{
+    float: left;
+    display: block;
+    margin-right: 10px;
+}
+.privat-title{
+    position: relative;
+    text-align: left;
+    font-size: 23px;
+}
+.card{
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+    border-radius: 5px;
+    padding-bottom: 20px;
+    display: block;
+    width: 30%;
+    float: left;
+    margin: 20px;
+}
+.card-text{
+    font-size: 15px;
+    line-height: 25px;
+    text-align: left;
+    padding: 10px;
+    color: #666666;
+}
+.card-btn{
+    font-size: 12px;
+    text-align: center;
+    color: #9c9c9c;
+}
+.btn-simpan{
+    padding:12px 30px;
+    background-color: white;
+    color: black;
+    border: 2px solid #666666;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.btn-simpan:hover{
+    background-color: #e7e7e7;
 }
